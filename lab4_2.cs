@@ -38,7 +38,7 @@ namespace lab4
                 Console.WriteLine("5. Сдвинуть циклически на M элементов вправо");
                 Console.WriteLine("6. Поиск первого отрицательного элемента в массиве");
                 Console.WriteLine("7. Выполнить сортировку простым выбором для массива");
-                Console.WriteLine("8. Бинарный поиск в массиве с использованием быстрой сортировки");
+                Console.WriteLine("8. Бинарный поиск в отсортированном массиве");
                 Console.WriteLine("9. Выход");
                 Console.Write("Выберите пункт: ");
                 #endregion 
