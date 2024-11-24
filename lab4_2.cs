@@ -106,13 +106,13 @@ namespace lab4
                     case 3:
                         if (array.Length != 0)
                         {
-                            int mn = int.MaxValue, ind_min = 0;
+                            int MinNumber = int.MaxValue, ind_min = 0;
                             n = array.Length;
                             for (int i = 0; i < n; i++)
                             {
-                                if (array[i] <= mn)
+                                if (array[i] <= MinNumber)
                                 {
-                                    mn = array[i];
+                                    MinNumber = array[i];
                                     ind_min = i;
                                 }
                             }
